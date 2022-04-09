@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["ES6","ES2017", "DOM", "ES2018", "ES2019", "ESNext"],
+    "sourceMap": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "removeComments": false,
+    "declaration": true
+  },
+  "exclude": [
+    "node_modules", "lib", "build", "utils"
+  ]
+}
