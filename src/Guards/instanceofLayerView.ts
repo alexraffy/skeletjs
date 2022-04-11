@@ -1,4 +1,4 @@
-import {LayerView} from "../Layer/layerView";
+import {LayerView} from "../Layer/LayerView";
 import {isDefined} from "mentatjs";
 
 

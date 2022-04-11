@@ -7,7 +7,8 @@
     "outDir": "build",
     "rootDir": "src",
     "removeComments": false,
-    "declaration": true
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true
   },
   "exclude": [
     "node_modules", "lib", "build", "utils"
