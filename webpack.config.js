@@ -9,12 +9,12 @@ module.exports = {
         filename: 'skelet.min.js',
         path: path.resolve(__dirname, 'dist'),
         libraryTarget: 'var',
-        library: 'skelet',
+        library: 'skeletjs',
     },
     externals: {
         "mentatjs": "var mentatjs",
         "typescript": "typescript",
-        "flowbreaker": "flowbreaker"
+        "flowbreaker": "var flowbreaker"
 
     },
     resolve: {
